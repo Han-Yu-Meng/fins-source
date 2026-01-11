@@ -8,7 +8,6 @@ packages:
     display_name: "Hello World Demo"
     description: "Fins 节点的入门示例，包含 Publisher 和 Subscriber"
     category: "Examples"
-    tags: ["demo", "cpp", "tutorial"]
     icon: "https://raw.githubusercontent.com/Han-Yu-Meng/hello_world/main/assets/logo.png"
 
     source:
