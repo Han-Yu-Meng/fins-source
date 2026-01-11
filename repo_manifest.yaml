@@ -1,0 +1,17 @@
+meta:
+  name: "Fins Official Core"
+  maintainer: "Fins Team <admin@fins.io>"
+
+packages:
+  
+  hello_world:
+    display_name: "Hello World Demo"
+    description: "Fins 节点的入门示例，包含 Publisher 和 Subscriber"
+    category: "Examples"
+    tags: ["demo", "cpp", "tutorial"]
+    icon: "https://raw.githubusercontent.com/Han-Yu-Meng/hello_world/main/.github/assets/logo.png"
+
+    source:
+      type: "git"
+      url: "https://github.com/Han-Yu-Meng/hello_world.git"
+      auth_required: false 
