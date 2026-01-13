@@ -14,3 +14,14 @@ packages:
       type: "git"
       url: "https://github.com/Han-Yu-Meng/hello_world.git"
       auth_required: false 
+
+  vins_estimator:
+    display_name: "VINS-Fusion"
+    description: "VINS Fusion 里程计"
+    category: "SLAM"
+    icon: "https://raw.githubusercontent.com/Han-Yu-Meng/VINS-Fusion/master/assets/logo.png"
+    
+    source:
+      type: "git"
+      url: "https://github.com/Han-Yu-Meng/VINS-Fusion.git"
+      auth_required: false 
