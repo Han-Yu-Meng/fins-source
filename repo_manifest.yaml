@@ -55,7 +55,7 @@ packages:
     category: "Navigation"
     description: "Livox driver 2.0"
     url: "https://github.com/Han-Yu-Meng/livox_ros_driver2"
-    branch: "main"
+    branch: "master"
 
   ros_bridge:
     category: "Common"
