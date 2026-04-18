@@ -1,6 +1,6 @@
 meta:
-  name: "Fins Official Core"
-  maintainer: "Fins Team <fins@sjtu.edu.cn>"
+  name: "Fins Official Software Source"
+  maintainer: "https://iwin-fins.com/"
 
 packages:
   hello_world:
@@ -67,12 +67,6 @@ packages:
     category: "Navigation"
     description: "Point cloud"
     url: "https://github.com/Han-Yu-Meng/pointcloud"
-    branch: "main"
-    
-  pointcloud_converter:
-    category: "Navigation"
-    description: "Point cloud converter"
-    url: "https://github.com/Han-Yu-Meng/pointcloud_converter"
     branch: "main"
     
   lio_sam:
