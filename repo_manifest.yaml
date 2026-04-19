@@ -5,85 +5,85 @@ meta:
 packages:
   fins_tutorial:
     category: "Examples"
-    description: "Tutorial for FineVision"
+    description: "Tutorial for FINS"
     url: "https://github.com/Han-Yu-Meng/fins_tutorial"
     branch: "main"
     
   fins_benchmark:
     category: "Examples"
-    description: "Benchmark for FineVision"
+    description: "Benchmark for FINS"
     url: "https://github.com/Han-Yu-Meng/fins_benchmark"
     branch: "main"
     
   vins_estimator:
     category: "Navigation"
-    description: "VINS Fusion visual odometry"
+    description: "VINS-Fusion is an optimization-based multi-sensor state estimator, which achieves accurate self-localization for autonomous applications (drones, cars, and AR/VR)."
     url: "https://github.com/Han-Yu-Meng/VINS-Fusion"
     branch: "master"
 
   FAST_LIO:
     category: "Navigation"
-    description: "FAST-LIO lidar-inertial odometry"
+    description: "FAST-LIO (Fast LiDAR-Inertial Odometry) is a computationally efficient and robust LiDAR-inertial odometry package."
     url: "https://github.com/Han-Yu-Meng/FAST_LIO"
     branch: "main"
 
   pointcloud_converter:
     category: "Navigation"
-    description: "Point cloud converter"
+    description: "Pointcloud converter"
     url: "https://github.com/Han-Yu-Meng/pointcloud_converter"
     branch: "main"
   
   livox_converter:
     category: "Navigation"
-    description: "Livox point cloud converter"
+    description: "Livox pointcloud converter"
     url: "https://github.com/Han-Yu-Meng/livox_converter"
     branch: "main"
     
   livox_bag:
     category: "Navigation"
-    description: "Livox bag"
+    description: "Recorder and player for livox lidars"
     url: "https://github.com/Han-Yu-Meng/livox_bag"
     branch: "main"
     
   iridescence_visualizer:
     category: "Navigation"
-    description: "Iridescence visualizer"
+    description: "Iridescence pointcloud visualizer"
     url: "https://github.com/Han-Yu-Meng/iridescence_visualizer"
     branch: "main"
   
   fastlivo2:
     category: "Navigation"
-    description: "FAST-LIVO2"
+    description: "FAST-LIVO2 is an efficient and accurate LiDAR-inertial-visual fusion localization and mapping system, demonstrating significant potential for real-time 3D reconstruction and onboard robotic localization in severely degraded environments."
     url: "https://github.com/Han-Yu-Meng/FAST-LIVO2"
     branch: "main"
 
   livox_driver2:
     category: "Navigation"
-    description: "Livox driver 2.0"
+    description: "Livox ROS Driver 2 is the 2nd-generation driver package used to connect LiDAR products produced by Livox, applicable for ROS (noetic recommended) and ROS2 (foxy or humble recommended)."
     url: "https://github.com/Han-Yu-Meng/livox_ros_driver2"
     branch: "master"
 
   ros_bridge:
     category: "Common"
-    description: "ROS bridge"
+    description: "Nodes for bridging up FINS and ROS"
     url: "https://github.com/Han-Yu-Meng/ros_bridge"
     branch: "main"
 
   pointcloud:
     category: "Navigation"
-    description: "Point cloud"
+    description: "Pointcloud processing nodes"
     url: "https://github.com/Han-Yu-Meng/pointcloud"
     branch: "main"
     
   lio_sam:
     category: "Navigation"
-    description: "LIO-SAM"
+    description: "A real-time lidar-inertial odometry package."
     url: "https://github.com/Han-Yu-Meng/LIO-SAM"
     branch: "ros2"
 
   vision:
     category: "Vision"
-    description: "OpenCV Functions"
+    description: "Nodes for image processing"
     url: "https://github.com/Han-Yu-Meng/vision"
     branch: "main"
 
@@ -103,4 +103,16 @@ packages:
     category: "Vision"
     description: "Bridge between ROS2 and OpenCV"
     url: "https://github.com/Han-Yu-Meng/vision_bridge"
+    branch: "main"
+
+  yolo_shm:
+    category: "Vision"
+    description: "YOLO object detection using shared memory communication with python"
+    url: "https://github.com/Han-Yu-Meng/yolo_shm"
+    branch: "main"
+    
+  yolo_onnx:
+    category: "Vision"
+    description: "YOLO object detection using ONNX models"
+    url: "https://github.com/Han-Yu-Meng/yolo_onnx"
     branch: "main"
