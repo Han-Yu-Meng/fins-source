@@ -3,10 +3,16 @@ meta:
   maintainer: "https://iwin-fins.com/"
 
 packages:
-  hello_world:
+  fins_tutorial:
     category: "Examples"
-    description: "Examples for FineVision"
-    url: "https://github.com/Han-Yu-Meng/hello_world"
+    description: "Tutorial for FineVision"
+    url: "https://github.com/Han-Yu-Meng/fins_tutorial"
+    branch: "main"
+    
+  fins_benchmark:
+    category: "Examples"
+    description: "Benchmark for FineVision"
+    url: "https://github.com/Han-Yu-Meng/fins_benchmark"
     branch: "main"
     
   vins_estimator:
